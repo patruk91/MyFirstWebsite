@@ -47,7 +47,7 @@ header a{
   font-size: 18px;
 }
 
-header li {
+header li{
   float: left;
   display:inline;
   padding: 0 20px 0 20px;
@@ -66,7 +66,7 @@ header nav{
   margin-top: 20px;
 }
 
-header .highlight, header .current a {
+header .highlight, header .current a{
   color: #293f50;
   font-weight: bold;
 }
@@ -103,6 +103,7 @@ header a:hover{
   padding: 15px;
   color: #fff;
   background: rgba(41, 63, 80, 1);
+  border-bottom: #fff 3px solid;
 }
 
 #newsletter h1 {
@@ -123,6 +124,7 @@ header a:hover{
 /*Boxes*/
 #boxes {
   margin-top: 20px;
+  border-bottom: #fff 3px solid;
 }
 
 #boxes .box {
@@ -134,4 +136,44 @@ header a:hover{
 
 #boxes .box img {
   width: 150px;
+}
+
+/*Footer*/
+footer {
+  font-size: 18px;
+  padding: 20px;
+  background-color: #ff502b;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer p{
+  float: left;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul {
+  float: right;
+  margin-top: 20px;
+}
+
+footer li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+footer .highlight, footer .current a{
+  color: #293f50;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: #ccc;
+  font-weight: bold;
 }
