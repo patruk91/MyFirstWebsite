@@ -14,17 +14,42 @@ body {
   overflow: hidden;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 /*Header*/
 header{
   background: #FF502B;
   color: #fff;
-  padding-top: 20px;
+  padding-top: 10px;
   min-height: 70px;
   border-bottom: #fff 3px solid;
 }
 
-/*Links in Header*/
 header a{
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header li {
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0px;
+}
+
+header nav{
+  float: right;
+  margin-top: 20px;
 }
