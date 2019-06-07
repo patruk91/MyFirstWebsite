@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+  background-color: #293f50;
+}
+
+/*Global*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header*/
+header{
+  background: #FF502B;
+  color: #fff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #fff 3px solid;
+}
+
+/*Links in Header*/
+header a{
+  color: #fff;
+  text-decoration: none;
+}
