@@ -76,6 +76,7 @@ header a:hover{
   font-weight: bold;
 }
 
+/*Showcase*/
 #showcase{
   min-height: 400px;
   background:url("../img/showcase.png") no-repeat;
@@ -97,6 +98,7 @@ header a:hover{
   font-weight: bold;
 }
 
+/*Newsletter*/
 #newsletter {
   padding: 15px;
   color: #fff;
@@ -116,5 +118,20 @@ header a:hover{
   padding: 4px;
   height: 25px;
   width: 250px;
+}
 
+/*Boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 31%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 150px;
 }
