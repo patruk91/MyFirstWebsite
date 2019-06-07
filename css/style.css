@@ -21,7 +21,7 @@ ul{
 
 /*Header*/
 header{
-  background: #FF502B;
+  background: #ff502b;
   color: #fff;
   padding-top: 10px;
   min-height: 70px;
@@ -52,4 +52,14 @@ header #branding h1{
 header nav{
   float: right;
   margin-top: 20px;
+}
+
+header .highlight, header .current a {
+  color: #293f50;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
 }
