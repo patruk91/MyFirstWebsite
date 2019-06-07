@@ -4,7 +4,7 @@ body {
   line-height: 1.2;
   padding: 0;
   margin: 0;
-  background-color: #293f50;
+  background-color: rgba(41, 63, 80, 0.95);
 }
 
 /*Global*/
@@ -61,5 +61,25 @@ header .highlight, header .current a {
 
 header a:hover{
   color: #ccc;
+  font-weight: bold;
+}
+
+#showcase{
+  min-height: 400px;
+  background:url("../img/showcase1.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 30px;
   font-weight: bold;
 }
