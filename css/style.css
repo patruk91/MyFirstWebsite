@@ -28,7 +28,18 @@ ul{
   margin-bottom: 20px;
   color: #fff;
   font-weight: bold;
+}
 
+.dark {
+  padding: 15px;
+  color: #fff;
+  background: rgba(41, 63, 80, 1);
+}
+
+.grey {
+  padding: 15px;
+  color: #000;
+  background: rgba(191, 191, 191, 1);
 }
 
 /*Header*/
@@ -124,7 +135,6 @@ header a:hover{
 /*Boxes*/
 #boxes {
   margin-top: 20px;
-  border-bottom: #fff 3px solid;
 }
 
 #boxes .box {
@@ -138,6 +148,34 @@ header a:hover{
   width: 150px;
 }
 
+/*AboutUs*/
+#aboutUs {
+  color: #fff;
+  font-size: 20px;
+}
+
+#aboutUs .about{
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+}
+
+#aboutUs .authors{
+  float: right;
+  width: 30%;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#aboutUs .authors img {
+  width: 200px;
+  margin-left: 100px;
+}
+
+#aboutUs h1 {
+  text-align: center;
+}
+
 /*Footer*/
 footer {
   font-size: 18px;
@@ -145,6 +183,7 @@ footer {
   background-color: #ff502b;
   text-transform: uppercase;
   color: #fff;
+  border-top: #fff 3px solid;
 }
 
 footer p{
