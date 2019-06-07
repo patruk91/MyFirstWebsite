@@ -2,9 +2,97 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Web Designers">
+    <meta name="keywords" content="web, design, proffesional, html, css, java, js, python">
+    <meta name="author" content="Patryk Lichwala">
+    <title>Web Designers | About</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">WEB</span> Designers</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="example@gmail.com">
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <article class="service">
+          <h1><span class="grey">Services:</span></h1>
+            <ul class="serviceList">
+              <li>
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies aliquet enim, non commodo velit vulputate id. Etiam eu blandit nisi. Vivamus tincidunt accumsan molestie.</p>
+                <p>Price 1000 - 3000 PLN</p>
+              </li>
+              <li>
+                <h3>Maintenance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies aliquet enim, non commodo velit vulputate id. Etiam eu blandit nisi. Vivamus tincidunt accumsan molestie.</p>
+                <p>Price 1000 PLN</p>
+              </li>
+              <li>
+                <h3>Audit</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies aliquet enim, non commodo velit vulputate id. Etiam eu blandit nisi. Vivamus tincidunt accumsan molestie.</p>
+                <p>Price 10000 - 30000 PLN</p>
+              </li>
+            </ul>
+          </article>
+
+        <aside class="quotes">
+          <div class="dark">
+            <h3>Quote:</h3>
+            <form class="quote" action="index.html" method="post">
+              <div>
+                <label>Name</label> <br>
+                <input type="text" placeholder="Example">
+              </div>
+              <div>
+                <label>Email</label> <br>
+                <input type="email" placeholder="example@gmail.com">
+              </div>
+              <div>
+                <label>Message</label> <br>
+                <textarea placeholder="Your message..." rows="8" cols="20"></textarea>
+              </div>
+              <button type="button" class="button">Send</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+          <p>Web Designers, Copyright &copy; 2019</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </footer>
 
   </body>
 </html>

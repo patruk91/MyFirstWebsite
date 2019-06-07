@@ -40,6 +40,7 @@ ul{
   padding: 15px;
   color: #000;
   background: rgba(191, 191, 191, 1);
+  border: #000 solid 2px;
 }
 
 /*Header*/
@@ -169,12 +170,53 @@ header a:hover{
 
 #aboutUs .authors img {
   width: 200px;
-  margin-left: 100px;
+  margin: 0 25%;
 }
 
 #aboutUs h1 {
   text-align: center;
 }
+
+/*Services*/
+#services .quotes {
+  float: right;
+  width: 30%;
+  margin-top: 95px;
+  text-align: center;
+}
+
+#services .quotes .quote input, #services .quotes .quote textarea{
+  width: 90%;
+  padding: 15px;
+}
+
+#services .service {
+  float: left;
+  width: 65%;
+}
+
+#services h1 {
+  font-size: 30px;
+}
+
+#services h3 {
+  font-size: 28px;
+  color: #ff502b;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+#services .serviceList li{
+  font-size: 20px;
+  padding: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+  border: #000 solid 2px;
+  color: #fff;
+  background-color: rgba(191, 191, 191, 1);
+}
+
 
 /*Footer*/
 footer {
